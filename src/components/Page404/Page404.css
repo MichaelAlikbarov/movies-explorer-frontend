@@ -18,6 +18,10 @@
     font-size: 140px;
     margin-top: 246px;
     margin-bottom: 5px;
+    text-align: center;
+    text-align: center;
+    font-size: 140px;
+    font-weight: 400;
 }
 
 @media(max-width: 768px) {

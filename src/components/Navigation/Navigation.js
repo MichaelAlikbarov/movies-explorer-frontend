@@ -11,7 +11,7 @@ export default function Navigation() {
     return(
         <nav className='navigation'>
             <ul className='navigation__list'>
-                <li className='navigation__item_film'>
+                <li className='navigation__item navigation__item_film'>
                     <NavLink to='/movies' className={setActive} onClick={closeBurgerMenu}>
                         Фильмы
                     </NavLink> 

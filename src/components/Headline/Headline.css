@@ -1,30 +1,50 @@
-
 .headline {
     border-bottom: 1px solid #DADADA;
     max-width: 1140px;
     flex-shrink: 0;
     max-width: 1140px;
-    margin: 0 6.14%;
+    margin: 0 70px;
     padding: 110px 0 23px;
+}
+
+.headline_tech {
+    padding-top: 100px;
+}
+
+.heading {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.88px;
 }
 
 @media (max-width: 768px) {
     .headline {
         padding-top: 90px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
 @media (max-width: 320px) {
     .headline {
         padding-top: 70px;
+        padding-bottom: 28px;
+        margin-left: 18px;
+        margin-right: 18px;
     }
-}
 
-.heading {
-    margin: 0;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 22px;
-    line-height: normal;
-    letter-spacing: -0.88px;
+    .headline_for-about-me {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    .heading {
+        font-size: 18px;
+        font-style: normal;
+        letter-spacing: -0.72px;
+    }
 }

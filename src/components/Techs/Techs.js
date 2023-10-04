@@ -5,7 +5,7 @@ import Headline from '../Headline/Headline';
 function Techs() {
     return (
         <section className='techs'>
-            <Headline heading={'Технологии'}/>
+            <Headline className={'headline headline_tech'} heading={'Технологии'}/>
             <div className='techs__container'>
                 <h2 className='techs__title'>7 технологий</h2>
                 <p className='techs__subtitle'>

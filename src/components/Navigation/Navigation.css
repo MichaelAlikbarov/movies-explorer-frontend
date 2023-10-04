@@ -12,7 +12,7 @@
     display: flex;
     gap: 16px;
     margin: 0 364px 0 0;
-    
+
 }
 
 
@@ -51,6 +51,7 @@
     .navigation {
         padding: 0%;
     }
+
     .navigation__list {
         margin-right: 182px;
     }
@@ -68,7 +69,18 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+        gap: 28px;
+    }
+
+    .navigation__item {
+        align-items: center;
+        margin: 0 auto;
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }
-
-

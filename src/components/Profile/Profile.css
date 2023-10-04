@@ -77,8 +77,8 @@
     line-height: normal;
     background-color: inherit;
     margin: 0 auto;
-    /* width: 410px; */
     padding: 0 140px;
+    cursor: pointer;
 }
 
 @media(max-width: 768px) {

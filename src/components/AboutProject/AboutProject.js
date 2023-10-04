@@ -4,7 +4,7 @@ import Headline from '../Headline/Headline';
 function AboutProject() {
     return (
         <section className='about-project' id='about-project'>
-            <Headline heading={'О проекте'} />
+            <Headline className={'headline'} heading={'О проекте'} />
             <div className='about-project__info-container'>
                 <div className='about-project__info'>
                     <h2 className='about-project__title'>Дипломный проект включал 5 этапов</h2>

@@ -6,7 +6,7 @@ function Page404() {
     const goBack = () => navigate(-1);
     return(
         <div className='page404'>
-            <h2 className='page404__title'>404</h2>
+            <h1 className='page404__title'>404</h1>
             <p className='page404__subtitle'>
                 Страница не найдена
             </p>

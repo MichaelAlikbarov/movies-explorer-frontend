@@ -8,19 +8,6 @@
     font-feature-settings: 'clig' off, 'liga' off;
 }
 
-@media (max-width: 768px) {
-    .promo {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-}
-
-@media (max-width: 320px) {
-    .promo {
-        max-width: 320px;
-    }
-}
-
 .promo__logo {
     max-width: 310px;
     height: 304px;
@@ -30,32 +17,9 @@
     object-fit: cover;
 }
 
-@media (max-width: 768px) {
-    .promo__logo {
-        margin-top: 140px;
-        margin-bottom: 48px;
-    }
-}
-
-@media (max-width: 320px) {
-    .promo__logo {
-        width: 210px;
-        height: 206px;
-    }
-}
-
 .promo__container {
     margin-top: 75px;
     margin-left: 70px;
-}
-
-@media (max-width: 768px) {
-    .promo__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 10px;
-    }
 }
 
 .promo__title {
@@ -67,25 +31,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 116%;
-}
-
-@media (max-width: 768px) {
-    .promo__title {
-        max-width: 680px;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-size: 40px;
-        line-height: 125%;
-    }
-}
-
-@media (max-width: 768px) {
-    .promo__title {
-        max-width: 300px;
-        font-size: 30px;
-        line-height: 126.667%;
-        letter-spacing: -1.2px;
-    }
 }
 
 .promo__subtitle {
@@ -101,16 +46,6 @@
     opacity: 0.5;
 }
 
-@media (max-width: 768px) {
-    .promo__subtitle {
-        margin-top: 22px;
-        margin-bottom: 92px;
-        max-width: 260px;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-    }
-}
-
 .promo__button {
     margin: 0 0 25px;
     width: 129px;
@@ -120,13 +55,7 @@
     border: 1px solid #FFF;
     opacity: 0.6;
     background-color: #073042;
-}
-
-@media (max-width: 768px) {
-    .promo__button {
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
+    font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .promo__button:hover {
@@ -140,4 +69,84 @@
     font-style: normal;
     font-weight: 500;
     line-height: 133, 33%;
+    font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media(max-width: 920px) {
+    .promo__container {
+        margin-left: 30px;
+    }
+
+    .promo__logo {
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 850px) {
+    .promo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo__logo {
+        margin-top: 140px;
+        margin-bottom: 48px;
+    }
+
+    .promo__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .promo__title {
+        max-width: 680px;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 40px;
+        line-height: 125%;
+    }
+
+    .promo__subtitle {
+        margin-top: 22px;
+        margin-bottom: 92px;
+        max-width: 260px;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+    }
+
+    .promo__button {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .promo {
+        max-width: 320px;
+    }
+
+    .promo__logo {
+        width: 210px;
+        height: 206px;
+        margin: 70px 55px 44px;
+    }
+
+    .promo__title {
+        font-size: 30px;
+        line-height: 126.667%;
+        letter-spacing: -1.2px;
+    }
+
+    .promo__subtitle {
+        margin-top: 24px;
+        margin-bottom: 80px;
+    }
+
+    .promo__button {
+        margin-bottom: 30px;
+    }
 }

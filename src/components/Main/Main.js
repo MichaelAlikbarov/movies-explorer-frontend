@@ -7,13 +7,13 @@ import AboutMe from '../AboutMe/AboutMe';
 
 function Main() {
     return (
-        <main className='main'>
+        <>
             <Promo/>
             <NavBarFuture/>
             <AboutProject/>
             <Techs />
             <AboutMe />
-        </main>
+        </>
     )
 };
 

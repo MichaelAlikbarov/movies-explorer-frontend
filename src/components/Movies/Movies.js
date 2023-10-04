@@ -1,12 +1,14 @@
 import './Movies.css';
 import SearchForm from '../SearchForm/SearchForm.js';
-import MoviesCard from '../MoviesCard/MoviesCard';
+import MoviesCardList from '../MoviesCardList/MoviesCardList';
+import Preloader from '../Preloader/Preloader';
 
 function Movies() {
     return(
         <section className='movies'>
             <SearchForm />
-            <MoviesCard />
+            {/* <Preloader /> */}
+            <MoviesCardList />
         </section>
     )
 }

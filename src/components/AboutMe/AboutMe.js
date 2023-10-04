@@ -6,8 +6,8 @@ import myfoto from '../../images/myfoto-min.jpg'
 function AboutMe() {
     return (
         <section className='about-me'>
-            <Headline heading={'Студент'}/>
-            <article className='about-me__user'>
+            <Headline className={'headline headline_for-about-me'} heading={'Студент'}/>
+            <div className='about-me__user'>
                 <div className='about-me__container'>
                     <h2 className='about-me__title'>Михаил</h2>
                     <p className='about-me__subtitle'>
@@ -18,13 +18,15 @@ function AboutMe() {
                         Работаю учителем в г. Нефтеюганск
                         Женат, есть трое сыновей. Я люблю играть на гитаре, 
                         а ещё увлекаюсь спортом. Недавно начал учиться вэб-разработке.
+                        В поисках работы фронтендером получаю много отказов. Но я не сдаюсь - 
+                        продолжаю учить Java Script!
                     </p>
                     <a className='about-me__link' href='https://github.com/MichaelAlikbarov' target='_blank' rel="noreferrer">
                         Github
                     </a>
                 </div>
                 <img className='about-me__foto' src={myfoto} alt='фото разработчика'></img>
-            </article>
+            </div>
             <Portfolio/>
         </section>
     )

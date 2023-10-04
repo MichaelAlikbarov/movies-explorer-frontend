@@ -14,10 +14,10 @@ function Footer() {
                 } </div>
                 <ul className='footer__list'>
                     <li className='footer__list-item'>
-                        <a className='footer__link' href='https://practicum.yandex.ru/'>Яндекс.Практикум</a>
+                        <a className='footer__link' href='https://practicum.yandex.ru/' target='blank'>Яндекс.Практикум</a>
                     </li>
                     <li className='footer__list-item'>
-                        <a className='footer__link' href='https://github.com/MichaelAlikbarov'>Github</a>
+                        <a className='footer__link' href='https://github.com/MichaelAlikbarov' target='blank'>Github</a>
                     </li>
                 </ul>
             </div>
