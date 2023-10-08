@@ -11,6 +11,7 @@ export default function Profile() { // const {signout, user } = useAuth();
     return (
         <>
             <Header/>
+            <main className='main'>
             <section className='profile'>
                 <div className='profile__container'>
                     <h1 className='profile__title'>Привет, {user}!</h1>
@@ -20,7 +21,6 @@ export default function Profile() { // const {signout, user } = useAuth();
                             <input className='profile__user-info' placeholder='Имя'
                                 defaultValue={user}/>
                         </div>
-                        <div className='profile__line'></div>
                         <div className='profile__item'>
                             <label className='profile__signature'>E-mail</label>
                             <input className='profile__user-info' placeholder='E-mail'
@@ -33,7 +33,7 @@ export default function Profile() { // const {signout, user } = useAuth();
                     </form>
                 </div>
             </section>
-
+            </main>
         </>
     )
 }

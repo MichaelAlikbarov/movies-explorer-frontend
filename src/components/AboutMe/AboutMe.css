@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 66px 70px 101px;
+    margin: 66px 5.46875% 101px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     color: #FFF;
@@ -76,10 +76,7 @@
 @media(max-width: 768px) {
     .about-me__user {
         align-items: flex-start;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 90px;
-        margin-top: 63px;
+        margin: 63px 3.90625% 90px;
     }
 
     .about-me__title {
@@ -112,6 +109,7 @@
     .about-me__user {
         flex-direction: column-reverse;
         margin-bottom: 40px;
+        align-items: center;
     }
 }
 
@@ -127,10 +125,7 @@
 
 @media(max-width: 320px) {
     .about-me__user {
-        margin-top: 66px;
-        margin-bottom: 70px;
-        margin-left: 14px;
-        margin-right: 14px;
+        margin: 66px 4.375% 70px;
     }
 
     .about-me__title {

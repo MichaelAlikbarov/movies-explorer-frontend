@@ -13,7 +13,7 @@ export default function MoviesCard() {
                 alt={'film name'} ></img>
             <div className='movies-card__container'>
                 <div className='movies-card__signature'>
-                    <h3 className='movies-card__title'>{'33 слова о дизайне'}</h3>
+                    <h2 className='movies-card__title'>{'33 слова о дизайне'}</h2>
                     <button type='button' className='movies-card__label' onClick={toggleVisible}>
                         <img className='movies-card__label-img' src={isVisible ? label : labeloff} alt='кнопка сохранить фильм' />
                     </button>

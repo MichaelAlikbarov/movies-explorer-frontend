@@ -5,17 +5,27 @@
     list-style-type: none;
     column-gap: 20px;
     row-gap: 32px;
-    margin: 70px 70px 0px;
+    margin: 70px 5.46875% 0px;
     padding: 0;
 }
 
 @media(max-width: 768px) {
     .movies-card__list {
         grid-template-columns: repeat(2, 339px);
-        grid-template-rows: 4fr;
-        margin-left: 30px;
-        margin-right: 30px;
+        grid-template-rows: repeat(4, auto);
+        margin-left: 3.90625%;
+        margin-right: 3.90625%;
         column-gap: 30px;
         row-gap: 36px;
+    }
+}
+
+@media(max-width: 320px) {
+    .movies-card__list {
+        grid-template-columns: repeat(1, 300px);
+        margin-top: 91px;
+        margin-left: 10px;
+        margin-right: 10px;
+        column-gap: 5px;
     }
 }

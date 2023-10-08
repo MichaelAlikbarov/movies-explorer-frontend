@@ -3,7 +3,7 @@
     max-width: 1140px;
     flex-shrink: 0;
     max-width: 1140px;
-    margin: 0 70px;
+    margin: 0 5.46875%;
     padding: 110px 0 23px;
 }
 
@@ -38,8 +38,8 @@
     }
 
     .headline_for-about-me {
-        margin-left: 14px;
-        margin-right: 14px;
+        margin-left: 4.375%;
+        margin-right: 4.375%;
     }
 
     .heading {

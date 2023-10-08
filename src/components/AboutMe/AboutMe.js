@@ -9,7 +9,7 @@ function AboutMe() {
             <Headline className={'headline headline_for-about-me'} heading={'Студент'}/>
             <div className='about-me__user'>
                 <div className='about-me__container'>
-                    <h2 className='about-me__title'>Михаил</h2>
+                    <h3 className='about-me__title'>Михаил</h3>
                     <p className='about-me__subtitle'>
                         Фронтенд-разработчик,  {(new Date().getFullYear()-1974)} лет
                     </p>

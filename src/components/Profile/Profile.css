@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    margin: 74px auto;
     max-width: 410px;
 }
 
@@ -21,6 +21,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
+    margin-top: 0;
     margin-bottom: 123px;
 }
 
@@ -35,6 +36,15 @@
 .profile__item {
     display: flex;
     justify-content: space-between;
+}
+
+.profile__item:first-child {
+    max-width: 410px;
+    flex-shrink: 0;
+    border: none;
+    border-bottom: 1px solid #424242;
+    margin: 16px 0;
+    padding-bottom: 16px;
 }
 
 .profile__signature {
@@ -92,11 +102,20 @@
     .profile__button {
         margin-bottom: 90px;
     }
+    .profile__container {
+        margin-top: 0;
+    }
+
+    .profile__item:first-child {
+        margin-top: 0;
+    }
 }
 
 @media(max-width: 520px) {
     .profile__container {
         max-width: 300px;
+        margin-left: 3.90625%;
+        margin-right: 3.90625%;
     }
     .profile__title {
         margin-top: 70px;

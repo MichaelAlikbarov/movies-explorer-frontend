@@ -13,7 +13,7 @@ function AboutProject() {
                     </p>
                 </div>
                 <div className='about-project__info'>
-                    <h2 className='about-project__title'>На выполнение диплома ушло 5 недель</h2>
+                    <h3 className='about-project__title'>На выполнение диплома ушло 5 недель</h3>
                     <p className='about-project__subtitle'>
                         У каждого этапа был мягкий и жёсткий дедлайн, которые нужно было соблюдать, чтобы успешно защититься.
                     </p>

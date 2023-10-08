@@ -2,6 +2,7 @@
 import {Link} from 'react-router-dom';
 import Logo from '../Logo/Logo';
 import './Login.css';
+import '../Register/Register.css';
 
 export default function Login() {
 
@@ -15,7 +16,7 @@ export default function Login() {
                 <label className='register__form-signature'>Пароль</label>
                 <input className='register__form-item register__form-item_password'
                     type='password' required />
-                <button type='submit' className='register__button'>
+                <button type='submit' className='register__button register__button_login'>
                     <p className='register__button-title'>Войти</p>
                 </button>
             </form>

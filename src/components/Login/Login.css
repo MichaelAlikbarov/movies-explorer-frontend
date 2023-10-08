@@ -19,3 +19,7 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.register__button_login {
+    margin-top: 169px;
+}

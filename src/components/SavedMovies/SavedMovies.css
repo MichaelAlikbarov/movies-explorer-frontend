@@ -1,0 +1,8 @@
+.saved-movies {
+    margin: 0;
+}
+
+.saved-movies__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+}

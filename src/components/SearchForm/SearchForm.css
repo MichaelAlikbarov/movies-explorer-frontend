@@ -88,3 +88,26 @@
         flex-direction: row-reverse;
     }
 }
+
+@media(max-width: 320px) {
+    .search-form__form {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 90px;
+        margin-bottom: 0;
+    }
+
+    .search-form__container {
+        justify-content: center;
+        margin-top: 41px;
+    }
+
+    .search-form__subtitle {
+        font-size: 11px;
+        line-height: 163.636%
+    }
+
+    .search-form__input {
+        font-size: 18px;
+    }
+}

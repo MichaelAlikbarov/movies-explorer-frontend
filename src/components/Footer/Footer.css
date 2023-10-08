@@ -5,7 +5,7 @@
 }
 
 .footer__container-title {
-  margin: 79px 70px 0;
+  margin: 79px 5.46875% 0;
   max-width: 1400px;
   border-bottom: 1px solid #424242;
 }
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 70px 20px;
+  margin: 20px 5.46875% 20px;
 }
 
 .footer__copyright {
@@ -68,8 +68,8 @@
 
 @media(max-width: 768px) {
   .footer__container-info {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3.90625%;
+    margin-right: 3.90625%;
   }
 }
 

@@ -3,6 +3,7 @@ import './App.css';
 import Main from '../Main/Main';
 import Page404 from '../Page404/Page404';
 import Movies from '../Movies/Movies';
+import LayoutMain from '../LayoutMain/LayoutMain';
 import Layout from '../Layout/Layout';
 import SavedMovies from '../SavedMovies/SavedMovies';
 import Login from '../Login/Login';
@@ -10,8 +11,8 @@ import Register from '../Register/Register';
 import Profile from '../Profile/Profile';
 // import RequireAuth from '../../hoc/RequireAuth';
 // import {AuthProvider} from '../../hoc/AuthProvider';
-import { CurrentUserContext } from '../../contexts/CurrentUserContext';
-import { useState } from 'react';
+import {CurrentUserContext} from '../../contexts/CurrentUserContext';
+import {useState} from 'react';
 
 function App() {
     const [burgeMenuOpen, setBurgerMenuOpen] = useState(false);
@@ -29,15 +30,12 @@ function App() {
 
     return (
         <div className='app'>
-            <CurrentUserContext.Provider value={{
-                loggedin,
-                burgeMenuOpen,
-                handleShowMenu,
-                closeBurgerMenu
-            }}>
+            <CurrentUserContext.Provider value={
+                {loggedin, burgeMenuOpen, handleShowMenu, closeBurgerMenu}
+            }>
                 <Routes>
                     <Route path='/'
-                        element={<Layout />}>
+                        element={<LayoutMain/>}>
                         <Route index
                             element={<Main/>}/>
                         <Route path='/movies'
@@ -45,18 +43,22 @@ function App() {
                         <Route path='/saved-movies'
                             element={<SavedMovies/>}/>
                     </Route>
-                    <Route path='/signin'
-                        element={<Login />}/>
-                    <Route path='/signup'
-                        element={<Register />}/>
+                    <Route path='/'
+                        element={<Layout />}>
+                        <Route path='/signin'
+                            element={<Login/>}/>
+                        <Route path='/signup'
+                            element={<Register/>}/>
+                        <Route path='*'
+                            element={<Page404/>}/>
+                    </Route>
                     <Route path='/profile'
-                        element={<Profile/>}/>
-                    <Route path='*'
-                        element={<Page404/>}/>
+                        element={<Profile />}>
+                    </Route>
                 </Routes>
             </CurrentUserContext.Provider>
         </div>
-    );
+    )
 }
 
 export default App;

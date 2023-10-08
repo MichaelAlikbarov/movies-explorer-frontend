@@ -16,11 +16,11 @@ export default function Register() {
                 <input className='register__form-item register__form-item_password' value={'*******'} type='password' required />
                 <span className='register__error'>Что-то пошло не так...</span>
                 <button type='submit' className='register__button'>
-                    <p className='register__button-title'>Зарегистрироваться</p>
+                    <span className='register__button-title'>Зарегистрироваться</span>
                 </button>
             </form>
             <div className='register__signature'>
-                <p className='register__signature-title'>Уже зарегистрированы?</p>
+                <span className='register__signature-title'>Уже зарегистрированы?</span>
                 <Link to='/signin' className='register__login-link'>Войти</Link>
             </div>
 

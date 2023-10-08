@@ -13,6 +13,8 @@ export default function BurgerMenu() {
             <img src={xx} alt='крестик закрыть' className='burger-menu__close' onClick={closeBurgerMenu} />
             <Link to='/' onClick={closeBurgerMenu} className='burger-menu__link'>Главная</Link>
             <Navigation />
+            <div className={!burgeMenuOpen ? 'burger-menu__overlay' : 'burger-menu__overlay burger-menu__overlay_active'}>
+            </div>
         </div>
     )
 }
