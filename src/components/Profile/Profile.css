@@ -30,13 +30,6 @@
 .profile__form {
     margin: 0;
 }
-/* .profile__line {
-    max-width: 410px;
-    flex-shrink: 0;
-    border: none;
-    border-bottom: 1px solid #424242;
-    margin: 16px 0;
-} */
 
 .profile__item {
     display: flex;
@@ -92,6 +85,7 @@
     -moz-appearance: none;
     appearance: none;
     border: none;
+    cursor: pointer;
 }
 
 .profile__button {
