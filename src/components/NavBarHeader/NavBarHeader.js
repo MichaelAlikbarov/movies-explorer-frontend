@@ -10,7 +10,7 @@ export default function NavBarHeader() {
                 </li>
                 <li className='navbar__item'>
                     <Link to='/signin'>
-                        <button className='navbar__button navbar__button_login'>Войти</button>
+                        <button type='button' className='navbar__button navbar__button_login'>Войти</button>
                     </Link>
                 </li>
             </ul>

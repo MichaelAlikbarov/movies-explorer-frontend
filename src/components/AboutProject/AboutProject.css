@@ -11,7 +11,7 @@
 }
 
 .about-project__info-container {
-    margin: 70px 70px 110px 70px;
+    margin: 70px 5.46875% 110px;
     display: flex;
     gap: 40px;
 }
@@ -40,7 +40,7 @@
 }
 
 .about-project__timeline {
-    margin: 0 70px 110px 70px;
+    margin: 0 5.46875% 110px 5.46875%;
     display: grid;
     grid-template-columns: 228px auto;
     grid-template-rows: 2fr;
@@ -117,7 +117,7 @@
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 420px) {
     .about-project__info-container {
         flex-direction: column;
         margin: 60px 18px 60px;

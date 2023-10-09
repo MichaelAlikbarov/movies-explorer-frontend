@@ -23,7 +23,7 @@ function SearchForm() {
         <section className='search-form'>
             <form className='search-form__form'>
                 <div className='search-form__find-container'>
-                    <input className='search-form__input' type='search' placeholder='Фильм' required/>
+                    <input className='search-form__input' type='search' placeholder='Фильм' required />
                     <button className='search-form__button' type='search'
                         onClick={handlePreloader}>
                         <img className='search-form__find-icon'

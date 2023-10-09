@@ -25,11 +25,13 @@ export default function Profile() { // const {signout, user } = useAuth();
                             <label className='profile__signature'>E-mail</label>
                             <input className='profile__user-info' placeholder='E-mail'
                                 defaultValue={'mail@mail.com'}
-                                def/>
+                            />
                         </div>
-                        <p className='profile__subtitle'>Редактировать</p>
-                        <button className='profile__button' type='button'
-                            onClick={goBack}>Выйти из аккаунта</button>
+                        <div className='profile__buttons'>
+                            <button className='profile__button-submit' type='submit'>Редактировать</button>
+                            <button className='profile__button' type='button'
+                                onClick={goBack}>Выйти из аккаунта</button>
+                        </div>
                     </form>
                 </div>
             </section>

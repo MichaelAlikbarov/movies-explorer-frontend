@@ -75,4 +75,9 @@
     .burger-menu__link {
         margin-top: 144px;
     }
+
+    .burger-menu__close {
+        top: 13.44px;
+        right: 13.44px;
+    }
 }

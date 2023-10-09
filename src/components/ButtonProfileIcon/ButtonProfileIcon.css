@@ -71,3 +71,10 @@
         margin-bottom: 90px;
     }
 }
+
+@media(max-width: 320px) {
+    .button-icon {
+        margin-top: 444px;
+        margin-bottom: 46px;
+    }
+}

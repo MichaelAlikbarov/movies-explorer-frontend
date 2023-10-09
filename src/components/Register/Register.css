@@ -67,6 +67,7 @@
     border-radius: 3px;
     background: #4285F4;
     width: 396px;
+    height: 45px;
     margin-top: 69px;
     margin-bottom: 16px;
     padding: 0;
@@ -125,6 +126,7 @@
     .register {
         justify-content: center;
         margin-top: 56px;
+        margin-bottom: 30px;
     }
 
     .register__title {

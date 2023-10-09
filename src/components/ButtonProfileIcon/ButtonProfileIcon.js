@@ -12,7 +12,7 @@ export default function ButtonProfileIcon() {
         <button className='button-icon' type='button'
             onClick={closeBurgerMenu}>
             <Link to='/profile' className='button-icon__link'>
-                <p className='button-icon__title'>Аккаунт</p>
+                <span className='button-icon__title'>Аккаунт</span>
                 <span className={
                     location.pathname === '/' ? 'button-icon__container' : 'button-icon__container button-icon__container_color'
                 }>

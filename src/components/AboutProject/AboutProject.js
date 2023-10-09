@@ -7,7 +7,7 @@ function AboutProject() {
             <Headline className={'headline'} heading={'О проекте'} />
             <div className='about-project__info-container'>
                 <div className='about-project__info'>
-                    <h2 className='about-project__title'>Дипломный проект включал 5 этапов</h2>
+                    <h3 className='about-project__title'>Дипломный проект включал 5 этапов</h3>
                     <p className='about-project__subtitle'>
                         Составление плана, работу над бэкендом, вёрстку, добавление функциональности и финальные доработки.
                     </p>
